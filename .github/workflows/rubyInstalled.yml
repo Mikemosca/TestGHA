@@ -34,7 +34,7 @@ jobs:
         run: |
           echo is ruby installed?
           ruby --version
-          echo are ruby build tools installed
+          echo is rake installed?
           rake --version
-          echo gem
+          echo is gem installed?
           gem --version
