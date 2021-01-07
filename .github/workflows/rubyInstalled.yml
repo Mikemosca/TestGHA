@@ -17,8 +17,8 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   checkruby: Ruby version on node ${{ matrix.os }}
-    # The type of runner that the job will run on
-    runs-on: ${{ matrix.os }}
+  # The type of runner that the job will run on
+  runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
