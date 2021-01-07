@@ -17,11 +17,12 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   checkruby: 
-    name: Ruby version on node ${{ matrix.os }}
+    name: Ruby version on node ${{ matrix.os }} and ${{ matrix.ruby_version }}
     # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        ruby_version: [2.5, 2.6, 2.7]
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
