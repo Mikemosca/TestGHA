@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo is ruby installed?
-          ruby -version
+          ruby --version
           echo are ruby build tools installed
           rake --version
           gem --version
