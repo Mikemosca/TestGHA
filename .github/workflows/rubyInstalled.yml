@@ -32,12 +32,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo List the directory
-          ls -a
           echo is ruby installed?
           ruby -version
-          echo is git installed?
-          git --version
           echo are ruby build tools installed
           rake --version
           gem --version
