@@ -20,9 +20,9 @@ jobs:
     name: Ruby version on node ${{ matrix.os }}
     # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
-      strategy:
-        matrix:
-          os: [ubuntu-latest, windows-latest, macos-latest]
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
