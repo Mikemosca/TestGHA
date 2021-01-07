@@ -37,4 +37,3 @@ jobs:
           echo are ruby build tools installed
           rake --version
           gem --version
-          rvm --version 
