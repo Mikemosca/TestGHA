@@ -61,3 +61,4 @@ jobs:
           rake --version
           echo is gem installed
           gem --version
+          echo ${{ secrets.NATURAL_LANGUAGE_CLASSIFIER_APIKEY }}
