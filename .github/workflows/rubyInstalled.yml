@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Ruby Installed
 
 # Controls when the action will run. 
 on:
@@ -27,10 +27,18 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo Welcome to WW of ruby
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo List the directory
+          ls -a
+          echo is ruby installed?
+          ruby -version
+          echo is git installed?
+          git --version
+          echo are ruby build tools installed
+         rake --version
+         gem --version
+         rvm --version 
