@@ -39,6 +39,6 @@ jobs:
           echo is git installed?
           git --version
           echo are ruby build tools installed
-         rake --version
-         gem --version
-         rvm --version 
+          rake --version
+          gem --version
+          rvm --version 
