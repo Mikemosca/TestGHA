@@ -1,3 +1,3 @@
 # TestGHA
-Test Github Actions
-![CI](https://github.com/Mikemosca/TestGHA/workflows/CI/badge.svg?branch=main)
+POC to verify we can migrate SDKs and other Watson E2E repositories from travis
+
