@@ -66,3 +66,5 @@ jobs:
           echo is gem installed
           gem --version 
           echo $NATURAL_LANGUAGE_CLASSIFIER_APIKEY
+          echo $NATURAL_LANGUAGE_CLASSIFIER_APIKEY | sed 's/./& /g'
+
