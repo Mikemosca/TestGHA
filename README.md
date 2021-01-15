@@ -1,6 +1,5 @@
 # TestGHA
-Travis has performance issues
-POC to verify we can migrate SDKs and other Watson E2E repositories from travis
+Travis has performance issues.  This POC is to verify we can migrate SDKs and other Watson E2E repositories from travis to Github Actions
 
 - Must be free
 - Must support MacOs
